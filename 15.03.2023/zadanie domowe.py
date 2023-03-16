@@ -25,6 +25,6 @@ for element in data:
 
 print(my_dictionary)
 print(my_dictionary["Adam"])
-print(my_dictionary.keys)
-print(my_dictionary.values)
-print(my_dictionary.items)
+print(my_dictionary.keys())
+print(my_dictionary.values())
+print(my_dictionary.items())
