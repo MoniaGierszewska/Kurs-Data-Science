@@ -4,7 +4,7 @@
 # Obie wartości maja być typu float
 
 
-def celc_kalwin (temp: float):
+def celc_kelvin (temp: float):
     return temp + 273.15
 
-print(celc_kalwin(24))
+print(celc_kelvin(-50))

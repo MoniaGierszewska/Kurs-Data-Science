@@ -1,8 +1,8 @@
-# numb= int(input("Podaj liczbę:"))
-# if numb %2 == 0:
-#     print("liczba jest parzysta")
-# else:
-#     print ("liczba jest nieparzysta")
+numb= int(input("Podaj liczbę:"))
+if numb %2 == 0:
+    print("liczba jest parzysta")
+else:
+    print ("liczba jest nieparzysta")
 
 numb= int(input("Podaj liczbę:"))
 

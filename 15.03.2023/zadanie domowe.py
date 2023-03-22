@@ -28,3 +28,10 @@ print(my_dictionary["Adam"])
 print(my_dictionary.keys())
 print(my_dictionary.values())
 print(my_dictionary.items())
+
+data_in_dict = {}
+for i in range(len(data)):
+    if data[i][0] not in data_in_dict.keys():
+        data_in_dict[data[i][0]] = int(data[i][1]//50)
+
+

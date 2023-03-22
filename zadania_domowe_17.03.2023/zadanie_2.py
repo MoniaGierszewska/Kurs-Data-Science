@@ -5,9 +5,9 @@ txt = "kot Ali ma kot kot kot kot ma ma "
 # txt.split()
 def my_words(txt):
     my_words_dict = {}
-    text_spl = txt.split(" ")
+    text_spl = txt.lower().split(" ")
     for w in text_spl:
-        if w not in my_words_dict:
+        if w not in my_words_dict.keys():
             my_words_dict[w]=1
         else:
             my_words_dict[w] = my_words_dict[w] +1

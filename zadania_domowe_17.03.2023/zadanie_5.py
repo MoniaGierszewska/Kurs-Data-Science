@@ -4,4 +4,15 @@
 
 5
 
-def ten_to_two(n):
+def dec_to_bin(value: int):
+    parts = []
+
+    while value != 0:
+        parts.append(value % 2)
+        value //= 2
+
+    return parts[::-1]
+
+print(dec_to_bin(20))
+
+#jest funkcja wbudowana bin która zwraca liczbę binarną
